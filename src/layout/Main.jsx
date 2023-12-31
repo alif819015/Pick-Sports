@@ -1,8 +1,9 @@
+import NavBar from "../shared/NavBar";
 
 const Main = () => {
     return (
         <div>
-           <h3 className="text-4xl text-center">Hello world!</h3> 
+           <NavBar></NavBar>
         </div>
     );
 };
