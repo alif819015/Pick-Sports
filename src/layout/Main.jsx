@@ -1,11 +1,14 @@
-import NavBar from "../shared/NavBar";
+import { Outlet } from "react-router-dom";
+import NavBar from "../shared/navBar/NavBar";
 
 const Main = () => {
-    return (
-        <div>
-           <NavBar></NavBar>
-        </div>
-    );
+ 
+  return (
+    <div>
+      <NavBar />
+      <Outlet />
+    </div>
+  );
 };
 
 export default Main;

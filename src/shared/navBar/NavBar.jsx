@@ -1,4 +1,8 @@
 const NavBar = () => {
+    const myStyle = {
+        background:
+          "linear-gradient(147deg, rgba(36,7,0,1) 0%, rgba(10,9,121,1) 40%, rgba(255,0,207,1) 100%)",
+      };
   const NavOption = (
     <>
       <li>
@@ -14,7 +18,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div  style={myStyle} className="navbar md:text-white text-black">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
